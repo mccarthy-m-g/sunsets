@@ -18,3 +18,5 @@ Depends:
     palettes,
     R (>= 2.10)
 LazyData: true
+Config/Needs/website:
+    asciicast (>= 2.2.1)

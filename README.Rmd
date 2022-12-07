@@ -42,12 +42,8 @@ See the following vignettes to learn how to use sunsets' palettes with other pac
 
 ## Included palettes
 
-```{r echo=FALSE, message=FALSE}
-library(sunsets)
-plot(sunset_palettes)
-# Detaching so the loading message appears in the Usage section
-detach("package:sunsets", unload=TRUE)
-detach("package:palettes", unload=TRUE)
+```{r echo=FALSE}
+plot(sunsets::sunset_palettes)
 ```
 
 ## Installation

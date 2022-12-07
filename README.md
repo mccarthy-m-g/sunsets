@@ -9,19 +9,19 @@
 Colour palettes inspired by sunsets in the Canadian Prairies.
 
 The main purpose of sunsets is to serve as an example showing how to
-create a colour palette package with the **palettes** package. The
-palettes package provides a comprehensive library for colour vectors and
-colour palettes using a new family of colour classes (`palettes_colour`,
-and `palettes_palette`) that always print as hex codes with colour
-previews.
-
-Colour palette packages created with palettes have access to the
-following capabilities, all without requiring you to write any code:
-formatting, casting and coercion, extraction and updating of components,
-plotting, colour mixing arithmetic, and colour interpolation. See the
-[Creating a colour palette
+create a colour palette package with the **palettes** package. See the
+accompanying [Creating a colour palette
 package](https://mccarthy-m-g.github.io/palettes/articles/creating-packages.html)
-vignette in palettes for a step-by-step guide.
+vignette for a step-by-step guide.
+
+The palettes package provides a comprehensive library for colour vectors
+and colour palettes using a new family of colour classes
+(`palettes_colour`, and `palettes_palette`) that always print as hex
+codes with colour previews. Colour palette packages created with
+palettes have access to the following capabilities, all without
+requiring you to write any code: formatting, casting and coercion,
+extraction and updating of components, plotting, colour mixing
+arithmetic, and colour interpolation.
 
 See the following vignettes to learn how to use sunsets’ palettes with
 other packages:
